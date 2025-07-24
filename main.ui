@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="create_question_btn">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Create a Question</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="create_test_btn">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>70</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Create a Test</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="take_test_btn">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>120</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Take a Test</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="review_test_btn">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>170</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Review Completed Tests</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
